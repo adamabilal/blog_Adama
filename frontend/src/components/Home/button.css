@@ -1,0 +1,106 @@
+/* CUSTOM COMMON BUTTON CSS */
+
+.btn_effect {
+    color: #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+   }
+
+   
+   .btn_effect::before, .btn_effect::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+   }
+   
+   .btn_effect::before {
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+   }
+   
+   .btn_effect::after {
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+   }
+   
+   .btn_effect:hover {
+    color: #ffe593;
+   }
+   
+   .btn_effect:hover::before, .btn_effect:hover::after {
+    border-color: #CBB26A;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+   }
+   
+   .btn_effect:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+   }
+   
+   .btn_effect:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+   }
+   
+   .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    color: white !important;
+   }
+
+   @media only screen and (max-width: 800px)
+   {
+       .btn
+       {
+           border: 1px solid #CBB26A !important;
+           color: white !important;
+       }
+
+       .btn a
+       {
+         text-decoration: none !important;
+       }
+   }
+   
+   .btn:focus {
+    color: white !important;
+   }
+
+   .btn a
+   {
+       color: white;
+       text-decoration: none;
+   }
+
+
+   .pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }

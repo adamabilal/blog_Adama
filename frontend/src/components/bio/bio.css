@@ -1,0 +1,207 @@
+.bio_text_cont
+{
+    overflow-x: hidden; 
+    background: url(../../images/counter.png);
+    background: url(../../images/bio_img.jpeg);
+    background-size: cover;
+}
+
+.bio1_container
+{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 2%;
+}
+a {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1050px)
+{
+  .bio1_container
+  {
+    margin-left: 0% !important;
+  }
+}
+
+.bio_img_size
+{
+    width: 65%;
+    height: 65%;
+}
+
+@media only screen and (max-width: 750px)
+{
+  .bio_img_size
+  {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.cutout_box
+{
+	position: relative;
+	height: 240px;
+}
+
+@media only screen and (max-width: 1050px)
+{
+  .cutout_box
+  {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  .cutout_box
+  {
+    height: 120px;
+  }
+}
+
+.cutout_text
+{
+  background: linear-gradient(to bottom right, #ffdef2, #e6f0ff);
+  color: black;
+  font-size: 7vw; 
+  font-weight: bold;
+  width: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+
+@media only screen and (max-width: 900px)
+{
+  .cutout_text
+  {
+    font-size: 12vw;
+  }
+}
+
+.cutout_anim
+{
+	animation: cutoutanim 4s ease normal;
+}
+
+@keyframes cutoutanim {
+  0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* cutout end */
+
+
+.bio_text h1
+{
+	font-size: 60px;
+	color: white;
+	color: #CBB26A;
+	line-height: 1.8;
+}
+
+@media only screen and (max-width: 700px)
+{
+	.bio_text h1
+	{
+		font-size: 30px;
+	}
+}
+
+.bio_text h1 mark
+{
+	background: linear-gradient(to bottom right, #ffdef2, #e6f0ff);
+}
+
+.bio_text_2
+{
+	color:white;
+	font-size: 22px;
+	font-weight: 300 !important;
+	font-family: 'Abel', sans-serif;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 980px)
+{
+  .bio_text_2
+  {
+    margin-top: 0px;
+  }
+}
+
+.biotext1_anim
+{
+	animation: biotext1_anim 4s;
+}
+
+@keyframes biotext1_anim {
+  0%{
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.biotext2_anim
+{
+	animation: biotext2_anim 4s;
+}
+
+@keyframes biotext2_anim {
+0%{
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* cv button start */
+
+.cv_button 
+{
+	height: 40px;
+	border: 1px solid #CBB26A;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+}
+
+.cv_button a
+{
+  color: white !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 850px)
+{
+	.cv_button 
+	{
+		width: 300px;
+	}
+}
+
+.cv_button:hover
+{
+	background: #CBB26A;
+	font-weight: bold;
+}

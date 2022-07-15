@@ -1,0 +1,129 @@
+.modal_imgsize
+{
+    height: 100%;
+    width: 80%;
+}
+
+
+.mdl2 a
+{
+	text-decoration: none !important;
+}
+.mb-5 {
+	color: rgb(121, 112, 112);
+}
+
+.mdl_1_icon
+{
+	font-size: 50px !important;
+	margin: 15px;
+	color: white;
+}
+
+@media only screen and (max-width: 600px)
+{
+	.mdl_1_icon
+	{
+		font-size: 35px !important;
+		margin-top: 15px !important;
+		margin-left: 8px !important;
+		margin-right: 8px !important;
+	}
+}
+
+.mdl_1_icon:hover
+{
+	color: #CBB26A;
+	transform: scale(1.1);
+}
+
+.md1_img
+{
+	height: 15vw;
+	width: 100%;
+}
+
+.mdl2
+{
+	background: url(../../images/mdl_bg2.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.form_css
+{
+	background: transparent !important;
+	border: 0px !important;
+	border-bottom: 2px solid white !important; 
+	color: white !important;
+}
+
+.form-label
+{
+	font-size: 20px !important;
+}
+
+.fa-close:hover
+{
+	color: #E74C3C;
+	cursor: pointer;
+}
+
+.validation_mgs
+{
+	color: #E74C3C;
+	margin-bottom: 0% !important;
+	margin-top: 1%;
+	font-size: 15px;
+}
+
+/* ----------------------- Animation start ------------------------ */
+
+.form_ip_anim1
+{
+	animation: form_ip_anim1 3s ease 0s 1 normal forwards;
+}
+
+@keyframes form_ip_anim1 {
+	0% {
+		opacity: 0;
+		transform: translateX(-450px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.form_ip_anim2
+{
+	animation: form_ip_anim2 3s ease 0s 1 normal forwards;
+}
+
+@keyframes form_ip_anim2 {
+	0% {
+		opacity: 0;
+		transform: translateX(450px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.form_ip_anim3
+{
+	animation: form_ip_anim3 3s ease 0s 1 normal forwards;
+}
+
+@keyframes form_ip_anim3 {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

@@ -1,0 +1,55 @@
+.social_dmns
+{
+	width: auto; 
+	height: 400px; 
+	position: fixed;
+	top: 22%;
+	z-index: 1000;
+	animation: contact_anim 4s ease 0s 1 normal forwards;
+}
+
+.social_dmns a i
+{
+	font-size: 45px;
+	color: white;
+}
+
+.linkedin:hover
+{
+	color: #0a66c2;
+}
+
+.github:hover
+{
+	color: black;
+	background: white;
+	border-radius: 50px;
+}
+
+.whatsapp:hover
+{
+	color: lightgreen;
+}
+
+.gmail:hover
+{
+	color: #fbbc05;
+}
+
+.call:hover
+{
+	color: #4285f4;
+}
+
+
+
+
+@keyframes contact_anim {
+	0% {
+	  transform: scale(0);
+	}
+  
+	100% {
+	  transform: scale(1);
+	}
+  }
