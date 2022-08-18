@@ -9,7 +9,6 @@
 
 .logo_size
 {
-    /* height:60px; */
     height: auto;
     width:100px;
     border-radius: 25px;
@@ -26,7 +25,7 @@
 
 .nav_toggler
 {
-  font-size:50;
+  font-size:50px;
   color: white;
   cursor: pointer;
 }
@@ -86,6 +85,7 @@
     text-align: center; 
     margin-top: 30px;
   }
+
   
   .overlay a {
     padding: 8px;

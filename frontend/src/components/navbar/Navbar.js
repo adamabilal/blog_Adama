@@ -34,18 +34,14 @@ export default function Navbar()
                         
                         <span> <i onClick={openNav} className="fa-solid fa-bars-staggered nav_toggler"> </i> </span>
                         </button>
-
                             <div className="collapse offset-md-4 navbar-collapse">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                    
                                     <li className="nav-item">
                                     <a className="nav-link nav_text btn btn_effect" href="#abt_me"> À PROPOS DE MOI </a>
                                     </li>
-                                    
                                     <li className="nav-item">
                                     <a className="nav-link nav_text btn btn_effect" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" onClick={contact_alert}> CONTACTEZ-MOI </a>
                                     </li>
-                                    
                                     <li className="nav-item">
                                     <a className="nav-link nav_text btn btn_effect" href="#project"> MES PROJETS </a>
                                     </li>
@@ -61,11 +57,10 @@ export default function Navbar()
             <div id="myNav" className="overlay">
 
                 <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
-
                 <div className="overlay-content">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" className="btn_effect">CONTACTEZ-MOI</a>
-                <a href="#abt_me" className="btn_effect">À PROPOS DE MOI</a>
-                <a href="#project" className="btn_effect"> MES PROJETS</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" className="btn_effect" onClick={closeNav} >CONTACTEZ-MOI</a>
+                <a href="#abt_me" className="btn_effect" onClick={closeNav}>À PROPOS DE MOI</a>
+                <a href="#project" className="btn_effect" onClick={closeNav}> MES PROJETS</a>
                 </div>
 
             </div>
