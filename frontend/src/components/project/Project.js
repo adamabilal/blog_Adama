@@ -5,6 +5,9 @@ import './project.css'
 import p_img1 from '../../images/p1.png';
 import p_img2 from '../../images/p2.png';
 import p_img3 from '../../images/p3.png';
+import p_img4 from '../../images/p4.png'
+import p_img5 from '../../images/p5.png'
+
 
 
 function Project()
@@ -175,6 +178,92 @@ function Project()
 
                             <center><button className="btn btn_effect my-1 me-4 p-2 project_links" style={{"float":"right"}}> 
                                 <a href="https://github.com/adamabilal/github/tree/master/restaurant" target="_blank" rel="noreferrer">  Code Source <i className="fa-solid fa-arrow-right-long ms-1"></i> 
+                                </a> 
+                            </button></center>
+
+                    </div>
+                    {/* project 4  */}
+                    <div className="col-md-3 py-2 mt-3 project_card mx-auto" id="project1">
+                        
+                        <div className="project_img text-center ">
+                            <img src= {p_img4} alt="" className="project_img_size" />
+                        </div>
+
+                        <div className="project_intro mt-4 ">
+                            <h2>SITE DE VOYAGE</h2>
+                            <h3>Site de voyage responsive Frontend </h3>
+                        </div>
+
+                        <h5 className='text-center mx-2 my-3 project_desc'>
+                        
+                            <h5 className='text-start'>Les caractéristiques</h5>
+                            <h6 className='text-start' style={{"lineHeight":1.5}}>
+                                <ul>
+                                    <li> Cette page web est responsive. ce n'est que la partie frontend qui est codée.</li>
+                                    <li>Gestion des couleurs, de l'illustration, de la typographie et de l'image de marque.</li>
+                                </ul>
+                            </h6>        
+                        
+                        </h5>
+
+                        <h6 className='mb-2 project_tech_hd'>Technologies utilisées</h6>
+                        <h3 className='text-light'>
+                        <i class="fa-brands fa-html5 mx-2"></i>
+                        <i class="fa-brands fa-css3-alt mx-2"></i>
+                        <i class="fa-brands fa-js-square mx-2"></i>
+                        <i class="fa-brands fa-github-alt mx-2"></i>
+                        </h3>
+
+                             <center><button className="btn btn_effect ms-4 my-1 p-2 project_links" style={{"float":"left"}}> 
+                                <a href="https://voyage-touristique.netlify.app/" target="_blank" rel="noreferrer"> Démo en Ligne <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </a> 
+                            </button></center>
+
+                            <center><button className="btn btn_effect my-1 me-4 p-2 project_links" style={{"float":"right"}}> 
+                                <a href="https://github.com/adamabilal/voyage" target="_blank" rel="noreferrer">  Code Source <i className="fa-solid fa-arrow-right-long ms-1"></i> 
+                                </a> 
+                            </button></center>
+
+                    </div>
+                    {/* project 5  */}
+                    <div className="col-md-3 py-2 mt-3 project_card mx-auto" id="project1">
+                        
+                        <div className="project_img text-center ">
+                            <img src= {p_img5} alt="" className="project_img_size" />
+                        </div>
+
+                        <div className="project_intro mt-4 ">
+                            <h2>Visite officielle de la commune de ma ville</h2>
+                            <h3>Site responsive Frontend </h3>
+                        </div>
+
+                        <h5 className='text-center mx-2 my-3 project_desc'>
+                        
+                            <h5 className='text-start'>Les caractéristiques</h5>
+                            <h6 className='text-start' style={{"lineHeight":1.5}}>
+                                <ul>
+                                    <li> Cette page web est  responsive. ce n'est que la partie frontend qui est codée.</li>
+                                    <li>Gestion des couleurs, de l'illustration, de la typographie et de l'image de marque.</li>
+                                </ul>
+                            </h6>        
+                        
+                        </h5>
+
+                        <h6 className='mb-2 project_tech_hd'>Technologies utilisées</h6>
+                        <h3 className='text-light'>
+                        <i class="fa-brands fa-html5 mx-2"></i>
+                        <i class="fa-brands fa-css3-alt mx-2"></i>
+                        <i class="fa-brands fa-js-square mx-2"></i>
+                        <i class="fa-brands fa-github-alt mx-2"></i>
+                        </h3>
+
+                             <center><button className="btn btn_effect ms-4 my-1 p-2 project_links" style={{"float":"left"}}> 
+                                <a href="https://bokidiawe.netlify.app/" target="_blank" rel="noreferrer"> Démo en Ligne <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                                </a> 
+                            </button></center>
+
+                            <center><button className="btn btn_effect my-1 me-4 p-2 project_links" style={{"float":"right"}}> 
+                                <a href="https://github.com/adamabilal/bokidiawe" target="_blank" rel="noreferrer">  Code Source <i className="fa-solid fa-arrow-right-long ms-1"></i> 
                                 </a> 
                             </button></center>
 
