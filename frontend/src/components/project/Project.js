@@ -233,7 +233,7 @@ function Project()
                         </div>
 
                         <div className="project_intro mt-4 ">
-                            <h2>Visite officielle de la commune de ma ville</h2>
+                            <h2>Site officiel de la commune de ma ville</h2>
                             <h3>Site responsive Frontend </h3>
                         </div>
 
